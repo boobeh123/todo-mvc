@@ -1,13 +1,14 @@
 {
   "name": "todolist-review-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A to-do list that uses Model-View-Controller architecture",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Bobby Asakawa",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
